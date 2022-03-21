@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
-const config = require('./src/config/development.json');
+const config = require('./src/config/production.json');
 
 module.exports = merge(common, {
-    mode: 'development', 
+    mode: 'production', 
     devServer: {
         historyApiFallback: true,
         hot: true,
