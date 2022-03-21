@@ -5,7 +5,7 @@ import {
 
 // import Route from './Route';
 import Dashboard from "pages/Dashboard";
-import Signin from "pages/Signin";
+import Signin from "pages/SignIn";
 import Home from "pages/Home";
 import HeaderFooterLayout from 'layouts/HeaderFooterLayout';
 import { getRoute } from './routers';
