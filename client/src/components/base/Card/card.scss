@@ -1,0 +1,16 @@
+.action-card-container {
+    row-gap: 40px;
+    column-gap: 20px;
+}
+.action-card {
+    box-shadow: 0 1px 0 0 rgba(217,217,214,0.6);
+    border: 1px solid white;
+    &:hover {
+        box-shadow: 0 0 4px 1px rgba(217,217,214,0.6);
+        border: 1px solid #D9D9D6;
+        .card-icon {
+            color: #C8112E;
+        }
+    }
+   
+}
