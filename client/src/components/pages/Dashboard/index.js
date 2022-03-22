@@ -60,7 +60,7 @@ function Dashboard() {
       </div>
       <Card solutions={solutions}></Card>
       <div className="text-[20px] my-[64px] leading-[24px] font-normal">
-        <span className="">Didn't find what you're looking for? Check our </span>
+        <span className="">Check our </span>
         <a className="text-[#CF052C] underline" href="#">Upcoming Solutions </a>
       </div>
     </div>
