@@ -13,16 +13,17 @@ function Home() {
       <div className="mx-auto h-[calc(100%-180px)] flex items-center w-[930px] z-1">
         <div className="w-[608px] py-[40px] px-[40px] ml-[-40px] bg-[#FAFAFA]">
           <div className="text-[36px] tracking-[0px] leading-[44px] font-semibold">
-            Welcome to Digital 
+            Welcome to Digital
             <div className="inline-block mx-[10px]">
-              QA 
+              QA
               <div class="w-full h-[5px] bg-theme-red"></div>
             </div>
             Labs
-        </div>
+          </div>
           <div className="mt-[24px] text-[19px] tracking-[0px] leading-[24px]">
-            We are here to help and solve all your real-world software testing problems. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-        </div>
+            An innovative, integrated and futuristic Digital QA Lab which acts as the one stop solutions for all the QA solutions.
+            Dive deep into the available solutions and be prepared for the upcoming challenges.
+          </div>
           <button
             className="mt-[24px] w-[204px] text-[13px] tracking-[1.3px] leading-[16px] font-semibold py-[18px] border border-black text-black hover:bg-black rounded-[3px] hover:text-white"
             onClick={() => onSignin()}
