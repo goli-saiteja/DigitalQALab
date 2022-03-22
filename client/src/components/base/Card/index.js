@@ -19,7 +19,7 @@ function Card({ solutions }) {
             </div>
             <div className="mt-[40px] text-[19px] tracking-[0] leading-[24px]">{solution.title}</div>
             <div className="mt-[20px] text-[14px] tracking-[0] leading-[18px] text-[#57585B] w-[230px] text-center p-[10px]">{solution.description}</div>
-            <button className="bg-theme-red text-white w-[200px] rounded-[3px] text-[13px] tracking-[1.3px] leading-[16px] py-[12px] my-[40px]">LEARN MORE</button>
+            <button className="bg-theme-red text-white w-[200px] rounded-[3px] text-[13px] tracking-[1.3px] leading-[16px] py-[12px] my-[40px]">RUN TESTS</button>
           </a>
         ))
       }

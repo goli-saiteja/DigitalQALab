@@ -14,24 +14,24 @@ function Dashboard() {
     },
     {
       title: "Real Device Testing",
-      description: "Test on the real devices live and identify and fix bugs faster",
+      description: "Test on the real devices live - mobile, tablets, iPads and more",
       url: 'https://app.saucelabs.com/live/web-testing',
       icon: faLaptopCode
     },
     {
-      title: "Automation - Travis",
-      description: "Run the automation suites for every release and get quick feedback",
+      title: "Automation",
+      description: "Run the automation suites for every release",
       url: 'https://app.travis-ci.com/github/Lululemon/SFCC-QA/builds',
       icon: faUserGear
     },
     {
       title: "Test Case Management",
-      description: `Know about all the tests that power every release`,
+      description: `Test all the scenarios that power every release`,
       url: 'https://lululemon.testrail.net/index.php?/projects/overview/29',
       icon: faListCheck
     },
     {
-      title: "QA Dashboard",
+      title: "Metrics that Matter",
       description: "Know all the QA metrics in one consolidated dashboard",
       url: 'https://lululemon.atlassian.net/jira/dashboards/13926',
       icon: faChartLine
@@ -47,11 +47,11 @@ function Dashboard() {
   return (
     <div className="mx-auto w-[930px]">
       <div className="w-full text-black">
-        <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">Hi, John</div>
+        <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">John</div>
         <div className="mt-[16px] text-[19px] font-normal leading-[26px]">
           Here is the consolidated dashboard of all the key QA challenges for this quarter. <br></br>
             Feel free to explore each solution. For any queries, email
-            <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">karumugam@lululemon.com</a>.
+            <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLQALeads@lululemon.com</a>.
             {/* <input type="email" value="karumugam@lululemon.com" /> */}
         </div>
       </div>
