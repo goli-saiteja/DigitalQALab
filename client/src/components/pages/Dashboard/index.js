@@ -47,7 +47,7 @@ function Dashboard() {
   return (
     <div className="mx-auto w-[930px]">
       <div className="w-full text-black">
-        <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">John</div>
+        {/* <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">John</div> */}
         <div className="mt-[16px] text-[19px] font-normal leading-[26px]">
           Here is the consolidated dashboard of all the key QA challenges for this quarter. <br></br>
             Feel free to explore each solution. For any queries, email
