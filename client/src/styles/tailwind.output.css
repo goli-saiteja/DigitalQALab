@@ -782,11 +782,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .border-theme-red {
   --tw-border-opacity: 1;
   border-color: rgb(200 16 46 / var(--tw-border-opacity));
@@ -1021,9 +1016,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-width: 0px;
 }
 
-.hover\:bg-black:hover {
+.hover\:bg-theme-red:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(200 16 46 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {

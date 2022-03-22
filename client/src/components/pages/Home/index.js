@@ -25,7 +25,7 @@ function Home() {
             Dive deep into the available solutions and be prepared for the upcoming challenges.
           </div>
           <button
-            className="mt-[24px] w-[204px] text-[13px] tracking-[1.3px] leading-[16px] font-semibold py-[18px] border border-black text-black hover:bg-black rounded-[3px] hover:text-white"
+            className="mt-[24px] w-[204px] text-[13px] tracking-[1.3px] leading-[16px] font-semibold py-[18px] border border-theme-red text-theme-red hover:bg-theme-red rounded-[3px] hover:text-white"
             onClick={() => onSignin()}
           >
             SIGN IN
