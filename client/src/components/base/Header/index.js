@@ -10,10 +10,14 @@ function Header() {
     AuthService.signOut();
     navigate("/home", { replace: true });
   }
+  const onLogoClick = () => {
+    const path = isSignedUp ? "/" : "/home";
+    navigate(path, { replace: true });
+  }
   return (
     <div className="bg-white text-theme-black">
       <div className="mx-auto w-[930px] grid grid-cols-12 gap-[20px] h-[80px] justify-items-center">
-        <div className="col-span-2 flex items-center cursor-pointer">
+        <div className="col-span-2 flex items-center cursor-pointer" onClick={() => onLogoClick()}>
           <img src={logo} />
           {
             isSignedUp &&
@@ -33,7 +37,7 @@ function Header() {
             onClick={() => onSignOut()}
           >
             SIGN OUT
-        </div>
+          </div>
         }
       </div>
     </div>

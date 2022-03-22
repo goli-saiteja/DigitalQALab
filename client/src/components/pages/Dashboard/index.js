@@ -1,6 +1,7 @@
 import React from 'react';
 import { faChrome } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode, faUserGear, faListCheck, faChartLine, faLinkSlash } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 import Card from 'base/Card';
 
@@ -20,7 +21,7 @@ function Dashboard() {
     },
     {
       title: "Automation",
-      description: "Run the automation suites for every release",
+      description: "Run test automation suites for every release",
       url: 'https://app.travis-ci.com/github/Lululemon/SFCC-QA/builds',
       icon: faUserGear
     },
@@ -38,7 +39,7 @@ function Dashboard() {
     },
     {
       title: "Screaming Frog",
-      description: "Find out all the broken links across regions and websites",
+      description: "Perform SEO Validations via a flexible site crawler",
       url: 'https://www.screamingfrog.co.uk/',
       icon: faLinkSlash
     }
@@ -46,21 +47,19 @@ function Dashboard() {
   const email = ""
   return (
     <div className="mx-auto w-[930px]">
-      <div className="w-full text-black">
-        {/* <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">John</div> */}
-        <div className="mt-[50px] text-[19px] font-normal leading-[26px]">
-            Feel free to explore each solution. For any queries, email
-            <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLQALeads@lululemon.com</a>.
-            {/* <input type="email" value="karumugam@lululemon.com" /> */}
-        </div>
-      </div>
+
       <div className="w-full">
-        <div className="text-[30px] mt-[40px] text-black text-center font-normal leading-[36px]">Explore our solutions</div>
+        <div className="text-[30px] mt-[30px] text-black text-center font-normal leading-[36px]">Explore our solutions</div>
       </div>
       <Card solutions={solutions}></Card>
-      <div className="text-[20px] my-[64px] leading-[24px] font-normal">
+      <div className="mt-[35px] w-full text-black text-[19px] font-normal leading-[26px]">
+        For any queries, email
+        <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLQALeads@lululemon.com</a>.
+        {/* <input type="email" value="karumugam@lululemon.com" /> */}
+      </div>
+      <div className="mt-[20px] mb-[64px] text-[19px] font-normal leading-[26px]">
         <span className="">Check our </span>
-        <a className="text-[#CF052C] underline" href="#">Upcoming Solutions </a>
+        <Link className="text-[#CF052C] underline" to="upcoming_solutions">Upcoming Solutions</Link>
       </div>
     </div>
   )

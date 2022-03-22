@@ -15,7 +15,7 @@ const signIn = () => {
       let result = processResponse(response);
       return resolve(result);
     }).catch(err => {
-      return reject(result);
+      return reject(err);
     });
   })
 

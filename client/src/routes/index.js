@@ -7,6 +7,7 @@ import {
 import Dashboard from "pages/Dashboard";
 import Signin from "pages/SignIn";
 import Home from "pages/Home";
+import Solutions from "pages/Solutions";
 import HeaderFooterLayout from 'layouts/HeaderFooterLayout';
 import { getRoute } from './routers';
 import * as permissions from './permissions';
@@ -15,6 +16,12 @@ const pages = [
   {
     path: "/",
     element: <Dashboard />,
+    layout: HeaderFooterLayout,
+    permissions: permissions.isPrivate
+  },
+  {
+    path: "/upcoming_solutions",
+    element: <Solutions />,
     layout: HeaderFooterLayout,
     permissions: permissions.isPrivate
   },

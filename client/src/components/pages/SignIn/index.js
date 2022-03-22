@@ -54,9 +54,11 @@ function SignIn() {
     onBlur(setPassword, password, validatePassword);
     if(email.value && password.value && !email.error && !password.error) {
       AuthService.signIn({email: email.value, password: password.value})
-      .then((result) => {
+      .then(() => {
         navigate("/", { replace: true });
       }).catch((err) => {
+        setEmail({ value: '', error: 'Please enter a valid email address' });
+        setPassword({ value: '', error: 'Please enter a valid password' });
         console.log(err);
       })
     }
