@@ -54,7 +54,7 @@ function Dashboard() {
       <Card solutions={solutions}></Card>
       <div className="mt-[35px] w-full text-black text-[19px] font-normal leading-[26px]">
         For any queries, email
-        <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLDigital-eCommQA@lululemon.com</a>.
+        <a href="mailto:INTLDigital-eCommQA@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLDigital-eCommQA@lululemon.com</a>.
         {/* <input type="email" value="karumugam@lululemon.com" /> */}
       </div>
       <div className="mt-[20px] mb-[64px] text-[19px] font-normal leading-[26px]">
