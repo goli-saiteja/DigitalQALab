@@ -48,7 +48,7 @@ function Dashboard() {
     <div className="mx-auto w-[930px]">
       <div className="w-full text-black">
         {/* <div className="text-[30px] mt-[40px] font-semibold leading-[37px]">John</div> */}
-        <div className="mt-[16px] text-[19px] font-normal leading-[26px]">
+        <div className="mt-[50px] text-[19px] font-normal leading-[26px]">
             Feel free to explore each solution. For any queries, email
             <a href="mailto:karumugam@lululemon.com" className="text-[#c8112e] ml-[5px]">INTLQALeads@lululemon.com</a>.
             {/* <input type="email" value="karumugam@lululemon.com" /> */}
