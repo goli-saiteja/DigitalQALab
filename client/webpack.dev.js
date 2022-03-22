@@ -27,7 +27,7 @@ module.exports = merge(common, {
                 }]
             },
             { //This rule is used to import images and fonts in the .scss files
-                test: /\.(otf|woff|woff2|eot|ttf|svg|gif|jpe?g|png|ico)$/, 
+                test: /\.(otf|woff|woff2|eot|ttf|svg|gif|jpe?g|png|ico|mov)$/, 
                 use:[ {loader: 'url-loader?limit=9000'}]
             }
         ]

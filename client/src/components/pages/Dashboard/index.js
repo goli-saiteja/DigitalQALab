@@ -4,6 +4,8 @@ import { faLaptopCode, faUserGear, faListCheck, faChartLine, faLinkSlash } from 
 import { Link } from "react-router-dom";
 
 import Card from 'base/Card';
+import tilesbg from 'assets/images/tilesbg.png';
+import './dashboard.scss';
 
 function Dashboard() {
   const solutions = [
@@ -44,10 +46,8 @@ function Dashboard() {
       icon: faLinkSlash
     }
   ];
-  const email = ""
   return (
-    <div className="mx-auto w-[930px]">
-
+    <div className="mx-auto w-[930px] overflow-hidden tiles-container">
       <div className="w-full">
         <div className="text-[30px] mt-[30px] text-black text-center font-normal leading-[36px]">Explore our solutions</div>
       </div>

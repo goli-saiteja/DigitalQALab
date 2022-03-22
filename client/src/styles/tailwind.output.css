@@ -752,6 +752,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-self: end;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-\[3px\] {
   border-radius: 3px;
 }

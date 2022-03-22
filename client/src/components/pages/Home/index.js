@@ -18,7 +18,7 @@ function Home() {
               QA
               <div class="w-full h-[5px] bg-theme-red"></div>
             </div>
-            Labs
+            Lab
           </div>
           <div className="mt-[24px] text-[19px] tracking-[0px] leading-[24px]">
             An innovative, integrated and futuristic Digital QA Lab which acts as the one stop solutions for all the QA solutions.
